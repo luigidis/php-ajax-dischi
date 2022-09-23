@@ -19,3 +19,24 @@
 ul, ol, menu  {
     list-style: none;
 }
+
+#card_mine {
+    background-color: #2E3A46;
+    color: white;
+    text-align: center;
+}
+
+#card_mine img {
+    padding: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.05rem;
+}
+
+.card-text {
+    color: grey;
+    padding-top: 10px;
+}

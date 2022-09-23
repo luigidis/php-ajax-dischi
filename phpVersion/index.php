@@ -100,7 +100,7 @@
                 $genre = $disc['genre'];
                 $year = $disc['year'];
             ?>
-                <div class="card col-2">
+                <div class="card col-2" id="card_mine">
 
                     <img src="<?= $poster ?>" alt="<?= $author ?>" class="card-img-top">
 

@@ -10,10 +10,42 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>Dischi Axios</title>
 </head>
-<body>
+<body id="bg_color_main">
     <div id="app">
-        <h1>Ecco Vue</h1> 
-
+        <div class="container" id="title_mine">
+            <h1>Dischi Stampati con Vue</h1>
+        </div>
+        <div class="container">
+            <div class="row gap-3">
+                <div class="card col-2"
+                    id="card_mine"
+                    v-for="disc in discs">
+                    <img :src=disc.poster :alt=disc.author class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            {{ disc.title }}
+                        </h5>
+                        <p class="card-text">
+                            {{ disc.author}}
+                            {{ disc.year }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>
+            
+            
+            
+                            
+                            
+                            
+                            
+
+
+
+           
+

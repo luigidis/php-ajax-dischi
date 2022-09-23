@@ -1,6 +1,6 @@
 <?php
 
-include __DIR__ . "../db/dischi.php";
+include __DIR__ . "/../db/dischi.php";
 
 
 
